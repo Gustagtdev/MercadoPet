@@ -1,6 +1,7 @@
 import requests
 from dotenv import load_dotenv
 import os
+import re # Pacote de expressões regulares para manipulação de strings
 import pandas as pd
 
 load_dotenv()
